@@ -72,16 +72,21 @@ Click Convert to start; progress & logs appear in the window
 ## FAQ
 
 Q. My transparent PNG became white on JPEG.
+
 JPEG can’t store alpha; the app composites to a white background.
+
 Change the color by editing flatten_alpha() (the bg=(255,255,255) tuple).
 
 Q. Will EXIF be preserved?
+
 Yes for JPEG/TIFF/HEIC when present. Images are auto-rotated on load via ImageOps.exif_transpose().
 
 Q. I can’t pick AVIF/HEIC.
+
 Install the plugins: pillow-avif-plugin (AVIF), pillow-heif (HEIC/HEIF).
 
 Q. Some saves fail due to unsupported params.
+
 The saver retries while skipping unsupported keys automatically. If it still fails, open an issue with the log.
 
 ## Screenshots (optional)
