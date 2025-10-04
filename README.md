@@ -4,8 +4,6 @@ A lightweight GUI to **batch-convert images to another file extension**.
 
 Built on Pillow, supports **PNG / JPEG / WEBP / AVIF / HEIC / TIFF / BMP / ICO** (AVIF/HEIC require optional plugins).
 
-![Main UI](docs/screenshot_main.png) <!-- replace with your path if needed -->
-
 ---
 
 ## Features
